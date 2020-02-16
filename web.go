@@ -116,5 +116,4 @@ func Cmd(arg ...string) {
 		log.Fatal(err)
 	}
 	log.Printf("in all caps: %q\n", out.String())
-
 }
