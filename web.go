@@ -75,7 +75,7 @@ func wwwf1(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//v := "/v/Dance_tutorial_on_Tik_Tok.wmv"
-	v := "/v/1.mp4"
+	v := "/v/2.mp4"
 	w.Write([]byte(v))
 }
 
